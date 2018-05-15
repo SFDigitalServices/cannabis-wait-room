@@ -8,7 +8,7 @@
     success: function(resp) {
       var e = (new Date()).getTime();
       var h = JSON.parse(resp);
-      var u = (new Date(h.month + ' ' + h.mday + ', ' + h.year + ' ' + h.hours + ':' + h.minutes + ':' + h.seconds)).getTime() - (e-s);
+      var u = (new Date(h.month + ' ' + h.mday + ', ' + h.year + ' ' + h.hours + ':' + h.minutes + ':' + h.seconds)).getTime() - (e - s);
       var i = (new Date(launchDate).getTime());
       if(u > i) {
         location.href = location.pathname + '?t=' + (new Date()).getTime();
@@ -23,7 +23,7 @@
         if(u > i) {
           location.href = location.pathname + '?t=' + (new Date()).getTime();
         } else {
-          $('#countdown').html(countdown + '<br/>' + moment().format('hh:mm:ss a'));
+          $('#countdown').html(countdown);
         }
       }, 1000);
     }
