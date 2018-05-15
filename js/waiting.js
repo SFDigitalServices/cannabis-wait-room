@@ -1,5 +1,4 @@
 (function() {
-  console.log('patience is a virtue');
   $.ajax({
     url: 'time.php',
     data: {
