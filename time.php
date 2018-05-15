@@ -1,5 +1,5 @@
 <?php
-  $data = [];
+  $data = array();
   try {
       $data = file_get_contents("https://digitalservices.sfgov.org/servertime.php");
   } catch (Exception $ex) {
