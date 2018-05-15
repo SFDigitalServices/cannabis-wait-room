@@ -1,5 +1,10 @@
 (function() {
   var s = (new Date()).getTime();
+  var tmp = new moment.duration(moment(new Date(launchDate).getTime())-s);
+  var countdownStr = function(tms) {
+    return tms.days() + 'd ' + tms.hours() + 'h ' + tms.minutes() + 'm ' + (tms.seconds() <= 9 ? '0' + tms.seconds() : tms.seconds()) + 's';
+  };
+  $('#countdown').html(countdownStr(tmp));
   $.ajax({
     url: 'time.php',
     data: {
@@ -16,15 +21,11 @@
         setInterval(function() {
           u = moment(u).add(1, 'seconds').valueOf();
           var diff = new moment.duration(i - u);
-          var countdown = diff.days() + 'd ' + 
-                          diff.hours() + 'h ' + 
-                          diff.minutes() + 'm ' + 
-                          (diff.seconds() <= 9 ? '0' + diff.seconds() : diff.seconds()) + 's';
           if(u > i) {
             location.href = location.pathname + '?t=' + (new Date()).getTime();
           } else {
             // countdown += '<br/>' + moment().format('hh:mm:ss a');
-            $('#countdown').html(countdown);
+            $('#countdown').html(countdownStr(diff));
           }
         }, 1000);
       }
