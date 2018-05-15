@@ -23,7 +23,7 @@
           if(u > i) {
             location.href = location.pathname + '?t=' + (new Date()).getTime();
           } else {
-            countdown += '<br/>' + moment().format('hh:mm:ss a');
+            // countdown += '<br/>' + moment().format('hh:mm:ss a');
             $('#countdown').html(countdown);
           }
         }, 1000);
