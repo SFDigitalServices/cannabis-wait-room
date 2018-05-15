@@ -8,7 +8,7 @@
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div id="P:T:F:navbar-header" class="navbar-header">
-          <a href="https://my.businessportal.sfgov.org/" class="navbar-brand"><img src="http://businessportal.sfgov.org/sites/all/themes/ccsf_theme/images/header/header_logo.png" style="max-height: 125px;" title="City of San Francisco Business Portal" class="img-responsive"></a>
+          <a href="https://my.businessportal.sfgov.org/" class="navbar-brand"><img src="https://businessportal.sfgov.org/sites/all/themes/ccsf_theme/images/header/header_logo.png" style="max-height: 125px;" title="City of San Francisco Business Portal" class="img-responsive"></a>
         </div>
       </div>
     </div>
