@@ -88,14 +88,6 @@ li {
 	.items-wrap .panel-panel {
     width: 255px;}}	
 
-div#countdown {
-    background: linear-gradient(#00c6fb, #005bea);
-    color: white;
-    padding: 25px 0;
-    font-size: 1.65em;
-    margin-top: 35px;
-}
-
 @media screen and (max-width: 992px) {
 	.panel-content {
 		margin:5%;}}
