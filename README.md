@@ -16,4 +16,4 @@ It should look like this:
 ?>
 ```
 
-`launchDate` is in the format `Month Day, Year Hours:Minutes:Seconds`.  `Hours:Minutes:Seconds` is in the 24 hour time format.  So that something that starts at 7:53pm on May 22, 2018, the appropriate string would be `May 22, 2018 19:53:00`
+`launchDate` is in the format `Month Day, Year Hours:Minutes:Seconds`.  `Hours:Minutes:Seconds` is in the 24 hour time format.  So for something that starts at 7:53pm on May 22, 2018, the appropriate string would be `May 22, 2018 19:53:00`
