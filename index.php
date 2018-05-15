@@ -27,5 +27,3 @@ if($theTime > $launchTime) {
 } else {
   include('wait.php');
 }
-
-?>
