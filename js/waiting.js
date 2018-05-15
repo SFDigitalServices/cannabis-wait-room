@@ -26,7 +26,8 @@ console.log('patience is a virtue');
             location.href = location.pathname + '?t=' + (new Date()).getTime();
           } else {
             var countdown = countdownStr(timeDiff);
-            // countdown += '<br/>' + moment().format('hh:mm:ss a');
+            // countdown += '<div style="font-size:0.5em">' + moment().format('MMMM D, Y h:mm:ss a') + '<br/>';
+            // countdown += moment().add(timeDiff.asSeconds(), 'seconds').format('MMMM D, Y h:mm:ss a') + '</div>';
             $('#countdown').html(countdown);
           }
         }, 1000);

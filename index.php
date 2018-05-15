@@ -6,7 +6,7 @@ header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 
 $config = include('config.php');
-date_default_timezone_set("US/Pacific");
+date_default_timezone_set("America/Los_Angeles");
 
 $launchDate = $config['launchDate'];
 $launchTime = strtotime($launchDate);
