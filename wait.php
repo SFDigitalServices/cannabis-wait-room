@@ -39,5 +39,13 @@
     <script src="js/moment.min.js"></script>
     <?php echo "<script>var launchDate = '" . $launchDate . "';</script>"; ?>
     <script type="text/javascript" src="js/waiting.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54629412-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-54629412-1');
+    </script>
   </body>
 </html>
