@@ -12,23 +12,49 @@
         </div>
       </div>
     </div>
+
+    <section class="splash-header bg-image ng-scope">
+  <div class="row">
+    <header class="hero-header">
+        <h1 class="hero-title">You can apply for a Cannabis Business Permit here on <br><span class="date">Tuesday, May 22 at 10 am</span>.</h1>
+    </header>
+  </div>
+</section>
+
     <div class="page-wrap">
       <div class="items-wrap">
         <div class="panel-panel">
-          You can apply for a Cannabis business permit on <strong>Tuesday, May 22 at 10 am</strong>.
-          <p class="help-text">(You may need to clear your cache and update your browser to see the new page.)</p>
+          <div class="countdown-text">You can apply in</div>
           <div id="countdown" style="text-align:center;"></div>
+          <p class="help-text">(You may need to <a target="_blank" label="Clear your cache" href="http://www.refreshyourcache.com/en/home/">clear your cache</a> and update your browser to see the new page.)</p>
         </div>
         <div class="panel-content">
+          <p>This page will automatically redirect to the application on May 22 at 10 am.</p>
           <h2>Before you apply</h2>
           <div>
             <ul>
-              <li>Get a <a href="https://my.businessportal.sfgov.org/CommunitiesSelfReg?returl=https://businessportal.sfgov.org/sfuser/login/%2F">Business Portal Account</a></li>
-              <li>Make sure the location you want permitted is listed as an <a target="_blank" href="http://sftreasurer.org/account-update">address on your Business Account</a></li>
-              <li>Complete the <a target="_blank" href="https://officeofcannabis.sfgov.org/requirements/checklist">checklist</a></li>
+              <li>Get a <a href="https://my.businessportal.sfgov.org/CommunitiesSelfReg?returl=https://businessportal.sfgov.org/sfuser/login/%2F" target="_blank" label="Business Portal Account Sign Up">Business Portal Account</a> so you can fill in the application</li>
+              <li>Make sure your business is registered with the City. <a target="_blank" href="http://sftreasurer.org/account-update" label="Update your Business Account">Online registration</a> takes a few minutes.</li>
+              <li>Look up your <a href="https://data.sfgov.org/Economy-and-Community/Map-of-Registered-Business-Locations/ednt-jx6u" target="_blank" label="Look up 7-digit Business Account Number (BAN)">7-digit Business Account Number (BAN)</a>.</li>
+              <li>In part 1 of the application, you’ll be applying for a Cannabis Business Permit for one location. Check location you want permitted is listed as an address on your Business Account. If not, <a href="https://sftreasurer.org/account-update" target="_blank" label="Update your Business Account">you can add the location to your account</a> even if you haven’t signed a lease yet.</li>
+              <li>Know your Equity Applicant ID (from an email from the Office of Cannabis).</li>
+              <li>Equity Incubator’s business name if you are being incubated.</li>
+              <li>Information included on the <a target="_blank" href="https://officeofcannabis.sfgov.org/requirements/checklist">Cannabis Business Permit Application (part 1) checklist</a>.</li>
             </ul>
           </div>
           <br>
+
+           <h2>About the online application</h2>
+          <div>
+            <ul>
+              <li>The application is on the Business Portal. You’ll need an account before you can apply.</li>
+              <li>If you get stuck on the landing page rather than redirected to the application form, <a target="_blank" label="Clear your cache" href="http://www.refreshyourcache.com/en/home/">clear your cache</a> and refresh the page.</li>
+              <li>Multiple users logging into the same Business Portal account at the same time can trigger technical difficulties that may delay your application’s submission.</li>
+            </ul>
+          </div>
+          <br>
+
+
           <h2>Tech disclaimer</h2>
           <p>The City and the Office of Cannabis is not responsible for any damages or loss of earnings from using this application. We do not accept responsibility for any money you have spent before being granted a Cannabis Business Permit.</p>
           <p>All decisions on applications, including what time applications are considered complete, is at the sole discretion of the Director of the San Francisco Office of Cannabis and is not negotiable.</p>
