@@ -1,35 +1,40 @@
 console.log('patience is a virtue');
 (function() {
-  var s = (new Date()).getTime();
-  var tmp = new moment.duration(moment(new Date(launchDate).getTime())-s);
+  var reqStart = (new Date()).getTime();
+  var tmpTimeDiff = new moment.duration(moment(new Date(launchDate).getTime())-reqStart);
   var countdownStr = function(tms) {
     return tms.days() + 'd ' + tms.hours() + 'h ' + tms.minutes() + 'm ' + (tms.seconds() <= 9 ? '0' + tms.seconds() : tms.seconds()) + 's';
   };
-  $('#countdown').html(countdownStr(tmp));
+  $('#countdown').html(countdownStr(tmpTimeDiff));
   $.ajax({
     url: 'time.php',
     data: {
       t: (new Date()).getTime()
     },
     success: function(resp) {
-      var e = (new Date()).getTime();
-      var h = JSON.parse(resp);
-      var u = (new Date(h.month + ' ' + h.mday + ', ' + h.year + ' ' + h.hours + ':' + h.minutes + ':' + h.seconds)).getTime() - (e - s);
-      var i = (new Date(launchDate).getTime());
-      if(u > i) {
+      var reqEnd = (new Date()).getTime();
+      var serverDate = JSON.parse(resp);
+      var serverTimeMs = (new Date(serverDate.month + ' ' + serverDate.mday + ', ' + serverDate.year + ' ' + serverDate.hours + ':' + serverDate.minutes + ':' + serverDate.seconds)).getTime() - (reqEnd - reqStart);
+      var launchTimeMs = (new Date(launchDate).getTime());
+      if(serverTimeMs > launchTimeMs) {
         location.href = location.pathname + '?t=' + (new Date()).getTime();
       } else {
         setInterval(function() {
-          u = moment(u).add(1, 'seconds').valueOf();
-          var diff = new moment.duration(i - u);
-          if(u > i) {
+          serverTimeMs = moment(serverTimeMs).add(1, 'seconds').valueOf();
+          var timeDiff = new moment.duration(launchTimeMs - serverTimeMs);
+          if(serverTimeMs > launchTimeMs) {
             location.href = location.pathname + '?t=' + (new Date()).getTime();
           } else {
-            // countdown += '<br/>' + moment().format('hh:mm:ss a');
-            $('#countdown').html(countdownStr(diff));
+            var countdown = countdownStr(timeDiff);
+            // countdown += '<div style="font-size:0.5em">' + moment().format('MMMM D, Y h:mm:ss a') + '<br/>';
+            // countdown += moment().add(timeDiff.asSeconds(), 'seconds').format('MMMM D, Y h:mm:ss a') + '</div>';
+            $('#countdown').html(countdown);
           }
         }, 1000);
       }
+    },
+    error: function() {
+      $('#countdown').html('Please refresh the page');
     }
   });
 })();

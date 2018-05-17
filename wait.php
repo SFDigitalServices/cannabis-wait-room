@@ -8,7 +8,7 @@
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div id="P:T:F:navbar-header" class="navbar-header">
-          <a href="https://my.businessportal.sfgov.org/" class="navbar-brand"><img src="http://businessportal.sfgov.org/sites/all/themes/ccsf_theme/images/header/header_logo.png" style="max-height: 125px;" title="City of San Francisco Business Portal" class="img-responsive"></a>
+          <a href="https://my.businessportal.sfgov.org/" class="navbar-brand"><img src="https://businessportal.sfgov.org/sites/all/themes/ccsf_theme/images/header/header_logo.png" style="max-height: 125px;" title="City of San Francisco Business Portal" class="img-responsive"></a>
         </div>
       </div>
     </div>
@@ -29,7 +29,7 @@
           <p class="help-text">(You may need to <a target="_blank" label="Clear your cache" href="http://www.refreshyourcache.com/en/home/">clear your cache</a> and update your browser to see the new page.)</p>
         </div>
         <div class="panel-content">
-          <p>This page will automatically redirect to the application on May 22 at 10 am.</p>
+          <p>This page will automatically redirect to the application on May 22 at 10 am.</p><br>
           <h2>Before you apply</h2>
           <div>
             <ul>

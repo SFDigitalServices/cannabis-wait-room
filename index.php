@@ -6,12 +6,12 @@ header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 
 $config = include('config.php');
-date_default_timezone_set("US/Pacific");
+date_default_timezone_set("America/Los_Angeles");
 
 $launchDate = $config['launchDate'];
 $launchTime = strtotime($launchDate);
 
-$serverDate = json_decode(file_get_contents("https://digitalservices.sfgov.org/servertime.php"));
+$serverDate = json_decode(file_get_contents("https://digitalservices.sfgov.org/servertime"));
 $serverHour = $serverDate->hours;
 $serverMinute = $serverDate->minutes;
 $serverSecond = $serverDate->seconds;
@@ -27,5 +27,3 @@ if($theTime > $launchTime) {
 } else {
   include('wait.php');
 }
-
-?>
