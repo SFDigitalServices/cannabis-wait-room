@@ -11,7 +11,7 @@ date_default_timezone_set("America/Los_Angeles");
 $launchDate = $config['launchDate'];
 $launchTime = strtotime($launchDate);
 
-$serverDate = json_decode(file_get_contents("https://digitalservices.sfgov.org/servertime.php"));
+$serverDate = json_decode(file_get_contents("https://digitalservices.sfgov.org/servertime"));
 $serverHour = $serverDate->hours;
 $serverMinute = $serverDate->minutes;
 $serverSecond = $serverDate->seconds;
