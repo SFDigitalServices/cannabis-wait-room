@@ -17,7 +17,7 @@
     <section class="splash-header bg-image ng-scope">
   <div class="row">
     <header class="hero-header">
-        <h1 class="hero-title">You can apply for a Cannabis Business Permit here on <br><span class="date">Tuesday, May 22 at 10 am</span>.</h1>
+        <h1 class="hero-title">You can apply for a Cannabis Business Permit here, beginning<br><span class="date">Tuesday, May 22 at 10 am</span></h1>
     </header>
   </div>
 </section>
