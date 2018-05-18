@@ -38,7 +38,7 @@
               <li>Make sure your business is registered with the City. <a target="_blank" href="http://sftreasurer.org/account-update" label="Update your Business Account">Online registration</a> takes a few minutes.</li>
               <li>Look up your <a href="https://data.sfgov.org/Economy-and-Community/Map-of-Registered-Business-Locations/ednt-jx6u" target="_blank" label="Look up 7-digit Business Account Number (BAN)">7-digit Business Account Number (BAN)</a>.</li>
               <li>Check the location you want permitted is listed as an address on your Business Account. If not, <a href="https://sftreasurer.org/account-update" target="_blank" label="Update your Business Account">you can add the location to your account</a> even if you haven't yet signed a lease. If you need to add your location to your Business Account, do so at least one day before you intend to submit the application.</li>
-              <li>Know your Equity Applicant ID (from an email from the Office of Cannabis).</li>
+              <li>Know your Equity Applicant ID and Equity Incubator ID (from an email from the Office of Cannabis).</li>
               <li>Equity Incubator's business name if you are being incubated.</li>
               <li>Information included on the <a target="_blank" href="https://officeofcannabis.sfgov.org/requirements/checklist">Cannabis Business Permit Application (part 1) checklist</a>.</li>
             </ul>
@@ -51,14 +51,16 @@
               <li>The application is on the Business Portal. You'll need an account before you can apply.</li>
               <li>If you get stuck on the landing page rather than redirected to the application form, <a target="_blank" label="Clear your cache" href="http://www.refreshyourcache.com/en/home/">clear your cache</a> and refresh the page.</li>
               <li>Multiple users logging into the same Business Portal account at the same time can trigger technical difficulties that may delay your application's submission.</li>
+              <li>You can only apply for this permit online. The Office of Cannabis will not accept applications or any other documents directly from applicants.</li>
             </ul>
           </div>
           <br>
 
 
           <h2>Tech disclaimer</h2>
-          <p>The City and the Office of Cannabis is not responsible for any damages or loss of earnings from using this application. We do not accept responsibility for any money you have spent before being granted a Cannabis Business Permit.</p>
-          <p>All decisions on applications, including what time applications are considered complete, is at the sole discretion of the Director of the San Francisco Office of Cannabis and is not negotiable.</p>
+          <p>Applications received by the Office of Cannabis shall be processed according to the priority categories set forth in Police Code Section 1606(c) and the order in which they are received.  Applicants are responsible for ensuring that their applications are received by the Office of Cannabis in a timely fashion.  Neither the City nor the Office of Cannabis is responsible for any pre-receipt delay that applicants may experience during the application process.</p>
+          <p>If you wish to advise the City about any problems with this application form, email <a target="_blank" href="mailto:officeofcannabis@sfgov.org"> officeofcannabis@sfgov.org</a></p>
+          <p>Submission of this application does not entitle an applicant to a Cannabis Business Permit, or any other privilege or entitlement under Police Code Article 16.  Decisions implementing Police Code Article 16—including, but not limited to, decisions concerning the review and processing of permit applications, and decisions concerning the grant or denial of a permit—are entrusted to the Office of Cannabis.</p>
         </div>
       </div>
     </div>
