@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Wait Room Page</title>
+    <title>Apply for a Cannabis Business Permit (part 1)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/waiting.css" rel="stylesheet" />
   </head>
@@ -58,9 +58,9 @@
 
 
           <h2>Tech disclaimer</h2>
-          <p>Applications received by the Office of Cannabis shall be processed according to the priority categories set forth in Police Code Section 1606(c) and the order in which they are received.  Applicants are responsible for ensuring that their applications are received by the Office of Cannabis in a timely fashion.  Neither the City nor the Office of Cannabis is responsible for any pre-receipt delay that applicants may experience during the application process.</p>
+          <p>Applications received by the Office of Cannabis shall be processed according to the priority categories set forth in Police Code Section 1606(c) and the order in which they are received. Applicants are responsible for ensuring that their applications are received by the Office of Cannabis in a timely fashion. Neither the City nor the Office of Cannabis is responsible for any pre-receipt delay that applicants may experience during the application process.</p>
           <p>If you wish to advise the City about any problems with this application form, email <a target="_blank" href="mailto:officeofcannabis@sfgov.org"> officeofcannabis@sfgov.org</a></p>
-          <p>Submission of this application does not entitle an applicant to a Cannabis Business Permit, or any other privilege or entitlement under Police Code Article 16.  Decisions implementing Police Code Article 16—including, but not limited to, decisions concerning the review and processing of permit applications, and decisions concerning the grant or denial of a permit—are entrusted to the Office of Cannabis.</p>
+          <p>Submission of this application does not entitle an applicant to a Cannabis Business Permit, or any other privilege or entitlement under Police Code Article 16. Decisions implementing Police Code Article 16 including, but not limited to, decisions concerning the review and processing of permit applications, and decisions concerning the grant or denial of a permit are entrusted to the Office of Cannabis.</p>
         </div>
       </div>
     </div>
