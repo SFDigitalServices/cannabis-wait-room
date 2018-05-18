@@ -17,7 +17,7 @@
     <section class="splash-header bg-image ng-scope">
   <div class="row">
     <header class="hero-header">
-        <h1 class="hero-title">You can apply for a Cannabis Business Permit here on <br><span class="date">Tuesday, May 22 at 10 am</span>.</h1>
+        <h1 class="hero-title">You can apply for a Cannabis Business Permit here from <br><span class="date">Tuesday, May 22 at 10 am</span>.</h1>
     </header>
   </div>
 </section>
@@ -51,7 +51,7 @@
               <li>The application is on the Business Portal. You'll need an account before you can apply.</li>
               <li>If you get stuck on the landing page rather than redirected to the application form, <a target="_blank" label="Clear your cache" href="http://www.refreshyourcache.com/en/home/">clear your cache</a> and refresh the page.</li>
               <li>Multiple users logging into the same Business Portal account at the same time can trigger technical difficulties that may delay your application's submission.</li>
-              <li>You can only apply for this permit online. The Office of Cannabis will not accept applications or any other documents directly from applicants.</li>
+              <li>You can only apply for this permit online. The Office of Cannabis will not accept paper applications or any other documents directly from applicants for application submission. Date stamps will not be given in person.</li>
             </ul>
           </div>
           <br>
