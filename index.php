@@ -23,7 +23,9 @@ $theDate = date("F j, Y H:i:s", mktime($serverHour, $serverMinute, $serverSecond
 $theTime = strtotime($theDate);
 
 if($theTime > $launchTime) {
+  header("HTTP/1.1 301 Moved Permanently");
   header('Location:'.$config['redirect']);
+  exit();
 } else {
   include('wait.php');
 }
